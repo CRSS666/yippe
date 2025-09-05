@@ -1,0 +1,32 @@
+[
+    {
+        "title": "CRSSi",
+        "url": "https://crssi.cc",
+        "desc": "The information page about the CRSSi. The site contains useful info about how we do stuff."
+    },
+    {
+        "title": "Yippe! Search (Simple)",
+        "url": "https://s.yippe.crssi.cc",
+        "desc": "The 'Simple' version of the Yippe! Search website. It uses simple HTML, CSS and js."
+    },
+    {
+        "title": "Northern II Holidays",
+        "url": "https://northerniiholidays.crssi.cc",
+        "desc": "Are you looking for a trustworthy travelling agency? Nothing beats a Northern II Holiday!"
+    },
+    {
+        "title": "Quartz Maximum",
+        "url": "https://quartzmaximum.crssi.cc",
+        "desc": "THE optimal way to watch Quartz Media content. Plans starting at USD $5/month!"
+    },
+    {
+        "title": "GREAT Transit",
+        "url": "https://great.three.crssi.cc",
+        "desc": "Website providing information about the GREAT Redstone Enabled Automatic Transit system."
+    },
+    {
+        "title": "Quartz News Network: HTML Edition",
+        "url": "https://htmlqnn.crssi.cc",
+        "desc": "Simple pages in raw HTML providing written versions of all QNN editions."
+    }
+]

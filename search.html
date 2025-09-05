@@ -48,6 +48,10 @@
         .topbar input[type="submit"] {
             padding: 5px 10px;
         }
+        .results {
+            margin: 5px;
+            gap: 5px;
+        }
 
     </style>
 
@@ -61,7 +65,7 @@
             <input
             type="search"
             id="search"
-            name="search"
+            name="q"
             required
             maxlength="256"
             size="25"
@@ -75,5 +79,46 @@
             
         </form>
     </div>
+    <div id="rlist" class="results"></div>
+    <script>
+            async function runSearch() {
+
+                const params = new URLSearchParams(window.location.search)
+                const query = params.get("q");
+
+                if (!query) return; 
+                
+                const res = await fetch("index.json");
+                const sites = await res.json();
+
+                const results = sites.filter(site =>
+                    site.title.toLowerCase().includes(query.toLowerCase()) ||
+                    site.url.toLowerCase().includes(query.toLowerCase()) ||
+                    site.desc.toLowerCase().includes(query.toLowerCase())
+                );
+
+                const list = document.getElementById("rlist")
+                list.innerHTML = "";
+
+                if (!results) {
+                    "<p>No results found! Showing all websites...<p>"
+                    // do code here later
+                } else {
+                    results.forEach(site => {
+                        const div = document.createElement("div");
+                        div.className = "ritem";
+                        div.innerHTML = `
+                            <h3><a href="${site.url}">${site.title}</a></h3>
+                            <div class="url"><h5>${site.url}/</h5></div>
+                            <p>${site.desc}</p>
+                            <hr>
+                    `;
+                    list.appendChild(div);
+                    });            
+                }
+            }
+            
+            runSearch();
+    </script>
 </body>
 </html>
