@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yippe! Search</title>
-</head>
-<body>
 
-    <!-- this doesnt work, like, at all
+    <!-- Discord and co. meta stuff -->
+
+    <meta content="Yippe! Search" property="og:title" />
+    <meta content="Find anything and everything all of the time in the CRSSi." property="og:description" />
+    <meta content="https://yippe.crssi.cc/" property="og:url" />
+    <meta content="https://github.com/CRSS666/yippe/blob/img/branding/yippe_search_transparent.png?raw=true" property="og:image" />
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color" />
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- end of meta stuff :3c      -->
 
     <style>
-        .center {
+        .center { /* I don't think this part works */
         display: table-cell;
         justify-content: center;
         align-items: center;
         height: normal;
-        
         vertical-align: middle;
-        border: 2px dashed #f69c55;
         }
-    </style> -->
+        .box { /* empty box clas */
+        height: 150px;
+        }
+    </style>
 
-<div class="center">
+</head>
+<body>
+<center> <!-- afaik it's bad practice to use <center> in 2025, but I couldn't find any other way -->
+<div class="box">
+
+</div>
+<div class="">
     <img src="https://github.com/CRSS666/yippe/blob/img/branding/yippe_beta_transparent.png?raw=true"
-    height="240">
+    height="140">
 </div>
 
-<div class="center">
+<div class="">
     <p>Welcome to Yippe! Search!</p>
 </div>
 
@@ -38,14 +52,21 @@
     name="query"
     required
     maxlength="256"
-    size="40"
+    size="50"
     >
+    <br> <br>
     <input
     type="submit"
     value="Search!"
     >
+    <button
+    class="lucky"
+    type="button"
+    disabled
+    >I'm feeling lucky
+    </button>
 
 </form>
-
+</center>
 </body>
 </html>
