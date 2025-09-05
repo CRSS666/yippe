@@ -38,6 +38,7 @@ where more than this is needed.
 
 - URL: [`yippe.crssi.cc`](https://yippe.crssi.cc)
 - Branch: `search`
+- Simple URL: [`s.yippe.crssi.cc`](https://s.yippe.crssi.cc)
 - Simple Branch: `simple/search`
 
 ### Yippe! Images
@@ -50,4 +51,5 @@ index of images.
 
 - URL: [`images.yippe.crssi.cc`](https://images.yippe.crssi.cc)
 - Branch: `search/images`
+- Simple URL: [`s.images.yippe.crssi.cc`](https://s.images.yippe.crssi.cc)
 - Simple Branch: `simple/images`
