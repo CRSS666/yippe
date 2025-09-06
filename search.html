@@ -93,18 +93,31 @@
                 const res = await fetch("index.json");
                 const sites = await res.json();
 
-                const results = sites.filter(site =>
-                    site.title.toLowerCase().includes(query.toLowerCase()) ||
-                    site.url.toLowerCase().includes(query.toLowerCase()) ||
-                    site.desc.toLowerCase().includes(query.toLowerCase())
+                const keywords = query.toLocaleLowerCase().split(/\s+/); // no wonder it was breaking on multiple words...
+
+                const results = sites.filter(site => {
+                    const haystack = (site.title + " " + site.url + " " + site.desc).toLocaleLowerCase();
+                    return keywords.every (word => haystack.includes(word)); },
+
                 );
 
                 const list = document.getElementById("rlist")
                 list.innerHTML = "";
 
-                if (!results) {
-                    "<p>No results found! Showing all websites...<p>"
-                    // do code here later
+                if (results.length === 0) {
+                    list.innerHTML = "<p>No results found! Showing all available websites...<p>";
+                    sites.forEach(site => {
+                        const div = document.createElement("div");
+                        div.className = "ritem";
+                        div.innerHTML = `
+                            <h3><a href="${site.url}">${site.title}</a></h3>
+                            <div class="url"><h5>${site.url}/</h5></div>
+                            <p>${site.desc}</p>
+                            <hr>
+                    `;
+                    list.appendChild(div);
+                });
+                    // did code here now
                 } else {
                     results.forEach(site => {
                         const div = document.createElement("div");
