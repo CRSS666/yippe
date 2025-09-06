@@ -26,51 +26,57 @@
         height: normal;
         vertical-align: middle;
         }
-        .box { /* empty box clas */
+        .nullbox { /* empty box clas */
         height: 150px;
         }
     </style>
 
 </head>
 <body>
-<center> <!-- afaik it's bad practice to use <center> in 2025, but I couldn't find any other way -->
-<div class="box">
+    <center> <!-- afaik it's bad practice to use <center> in 2025, but I couldn't find any other way -->
+        <div class="nullbox">
+        
+        </div>
+        <div class="">
+            <img src="https://github.com/CRSS666/yippe/blob/img/branding/svg/yippe!_search.svg?raw=true"
+            height="140">
+        </div>
 
-</div>
-<div class="">
-    <img src="https://github.com/CRSS666/yippe/blob/img/branding/yippe_beta_transparent.png?raw=true"
-    height="140">
-</div>
+        <div class="">
+            <p>Welcome to Yippe! Search!</p>
+        </div>
 
-<div class="">
-    <p>Welcome to Yippe! Search!</p>
-</div>
-
-<form action="./search.html" method="get" class="search" accept-charset="UTF-8">
-
-    <input
-    type="search"
-    id="search"
-    name="q"
-    required
-    maxlength="256"
-    size="50"
-    placeholder="Search the CRSSi..."
-    required
-    >
-    <br> <br>
-    <input
-    type="submit"
-    value="Search!"
-    >
-    <button
-    class="lucky"
-    type="button"
-    disabled
-    >I'm feeling lucky
-    </button>
-
-</form>
-</center>
+        <form action="./search.html" method="get" class="search" accept-charset="UTF-8">
+        
+            <input
+            type="search"
+            id="search"
+            name="q"
+            required
+            maxlength="256"
+            size="50"
+            placeholder="Search the CRSSi..."
+            required
+            >
+            <br> <br>
+            <input
+            type="submit"
+            value="Search!"
+            >
+            <button
+            class="lucky"
+            type="button"
+            disabled
+            >I'm feeling lucky
+            </button>
+        
+        </form>
+    </center>
+    <br>
+    <center>
+        <a href="about.html">About</a> - 
+        <a href="https://github.com/crss666/yippe/" target="_blank">Source Code</a> - 
+        <a href="https://crssi.cc" target="_blank">Click me!</a>
+    </center>
 </body>
 </html>
