@@ -10,6 +10,11 @@
         "desc": "The 'Simple' version of the Yippe! Search website. It uses simple HTML, CSS and js."
     },
     {
+        "title": "Yippe! Search",
+        "url": "https://yippe.crssi.cc",
+        "desc": "The 'Simple' version of the Yippe! Search website. It uses simple HTML, CSS and js."
+    },
+    {
         "title": "Northern II Holidays",
         "url": "https://northerniiholidays.crssi.cc",
         "desc": "Are you looking for a trustworthy traveling agency? Nothing beats a Northern II Holiday!"
@@ -20,14 +25,24 @@
         "desc": "THE optimal way to watch Quartz Media content. Plans starting at USD $5/month!"
     },
     {
-        "title": "GREAT Transit",
+        "title": "GREAT Transit (Simple)",
         "url": "https://s.great.three.crssi.cc",
         "desc": "Website providing information about the GREAT Redstone Enabled Automatic Transit system."
     },
     {
+        "title": "GREAT Transit",
+        "url": "https://great.three.crssi.cc",
+        "desc": "Website providing information about the GREAT Redstone Enabled Automatic Transit system."
+    },
+    {
         "title": "Quartz News Network: HTML Edition",
-        "url": "https://htmlqnn.rop.crssi.cc",
+        "url": "https://s.qnn.rop.crssi.cc",
         "desc": "Simple pages in raw HTML providing written versions of all QNN editions."
+    },
+    {
+        "title": "Quartz News Network",
+        "url": "https://qnn.rop.crssi.cc",
+        "desc": "The official website for the Quartz News Network, including transcriptions for all editions, as well as its very own scrolling news feed and exclusive articles. (may contain ads!)"
     },
     {
         "title": "QNN Playlist | YouTube",
@@ -38,6 +53,21 @@
         "title": "CRSS TikTok",
         "url": "https://tiktok.com/@crss665",
         "desc": "The official CRSS Profile on TikTok."
+    },
+    {
+        "title": "Minecraft Wiki",
+        "url": "https://htmlqnn.rop.crssi.cc",
+        "desc": "The Minecraft Wiki. This should show up when you, for some reason, decide to Yippe! Search the game."
+    },
+    {
+        "title": "WorldWidePixel's website",
+        "url": "https://worldwidepixel.ca",
+        "desc": "WorldWidePixel's (ROP's Prime Minister) personal website"
+    },
+    {
+        "title": "Blurry's website",
+        "url": "https://blurry.gay",
+        "desc": "Blurry's (ROP's qsoqbhbmeb qspevdfs) personal website"
     },
     {
         "title": "secret",
