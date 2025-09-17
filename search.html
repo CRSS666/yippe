@@ -24,8 +24,14 @@
     <style>
         
         body, html {
-            margin: 0;
-            padding: 0;
+            height: 100%;
+            margin: 0%;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 60px;
+        }
+        main {
+            flex: 1;
         }
         .topbar {
             width: auto;
@@ -53,6 +59,11 @@
         .results {
             margin: 5px;
             gap: 5px;
+        }
+        footer {
+            padding: 15px;
+            background-color: #eee;
+            font-size: 0.9em;
         }
 
     </style>
@@ -137,5 +148,23 @@
             
             runSearch();
     </script>
+
+    <center>
+    <footer>
+        <p>
+            © 2025 Yippe! (CRSS) - All Rights Reserved
+        </p>
+        <p><i>
+            You are allowed to fork, alter, and publish your own version of Yippe!
+            Search, as long as you remove all mentions to Yippe!'s Branding.
+        </i></p>
+        <p>
+            <a href="about.html">About</a> · 
+            <a href="https://github.com/crss666/yippe/" target="_blank">Source Code</a> · 
+            <a href="https://crssi.cc" target="_blank">Click me!</a>
+        </p>
+    </footer>
+    </center>
+
 </body>
 </html>
