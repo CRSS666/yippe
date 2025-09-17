@@ -22,7 +22,7 @@
 
         body, html {
             height: 100%;
-            margin: 0%;
+            margin: 0;
             display: flex;
             flex-direction: column;
             /*padding-bottom: 60px;*/
@@ -31,7 +31,18 @@
             flex: 100%;
         }
         .nullbox { /* empty box clas */
-        height: 150px;
+            height: 150px;
+        }
+        .topbar {
+            width: auto;
+            height: 60px;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            padding-top: 4px; /* idk why this breaks with 10 */
+            padding-bottom: 10px;
+            gap: 10px;
         }
         footer {
             position: fixed;
@@ -47,8 +58,45 @@
     </style>
 </head>
 <body>
+    <div class="topbar">
+        <a href="./index.html">
+        <img
+        src="/img/branding/yippe!_search.svg"
+        height="45" 
+        >  <!-- ^^ no idea why this is suddenly needed -->
+        </a>
+        <i>Find anything and everything, all of the time!</i>
+    </div>
+    <h1>Yippe! - About</h1>
+    <!-- I'd put an HR in here, but for some reason, CSS seems to have broken it and it now
+    renders as a one-pixel dot in the middle of the screen. Do I know how to fix this? No!
+    I'll beg Pixel for help soon 😭 -->
     <p>
-        to be done :p
+        Welcome to Yippe! We are here to provide you with trustworthy search results
+        about anything in <a href="https://crssi.cc">the CRSSi</a>.<br>
+
+        Currently, we have no headquarters in any of the worlds, but we plan to build
+        one around Upper Evo on CRSS 3 at some point in the future.
+    </p>
+    <p>
+        Our search results are quite limited right now, as the CRSS Internet has just
+        been launched.<br>
+
+        If you want to put your own site up on the CRSSi, you can fill <a>this form</a> -
+        The CRSS Gods will approve or reject your project based on its contents, but
+        don't be afraid, they're not <i>that</i> rigid with what you put on your websites.
+    </p>
+    <h2>Yippe! Search - Tips</h2>
+    <p>
+        Here are some tips to improve your use of Yippe! Search!
+        <ul>
+            <li>If you search for gibbrish or other-worldy queries, we'll show you all results in our index and warn you that your query wasn't valid;</li>
+            <li>There <i>may</i> be secrets in certain pages, so keep an eye out for them!;</li>
+            <li>Our managers <!-- lol im the only one working here -->have informed us that they plan to implement a Brazilian Portuguese version of Yippe!<br>
+                Search sooner or later! The page will soon be available at <a href="/br/index.html">s.yippe.crssi.cc/br</a>.<br>
+                If you're Brazilian and don't know how to read English - why are you still here?? - you'll really like this one!
+            </li>
+        </ul>
     </p>
     <center>
     <footer>

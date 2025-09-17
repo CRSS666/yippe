@@ -15,6 +15,11 @@
         "desc": "The 'Simple' version of the Yippe! Search website. It uses simple HTML, CSS and js."
     },
     {
+        "title": "Yippe! - About",
+        "url": "/about.html",
+        "desc": "The page that tells you relevant info about Yippe! and Yippe! Search"
+    },
+    {
         "title": "Northern II Holidays",
         "url": "https://northerniiholidays.crssi.cc",
         "desc": "Are you looking for a trustworthy traveling agency? Nothing beats a Northern II Holiday!"
