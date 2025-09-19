@@ -1,53 +1,42 @@
-# Yippe!
+# Yippe! Search (Simple)
 
-Yippe! is an organisation on CRSS making various
-free-to-use utilities inside [the CRSS Internet](https://crssi.cc).
+This is the branch for development of the `simple` version of
+Yippe!'s Search service.
 
-In reality, it's just some brand inside the CRSS
-universe that'll practically just be the CRSS [Google](https://google.com),
-for good and for bad.
+It runs with no web framework, and has all the HTML, CSS and
+clientside js code on every page's HTML file.
 
-It currently doesn't have any HQ or anything of
-that kind in either servers, but we'll make one
-when we need one.
+This (should) mean Yippe! Search (Simple) should run on
+basically anything that supports at least HTML and js.
 
-## Projects
+## Development
 
-Yippe! *will* have many projects for general
-CRSS Internet utilities and 'business', such
-as a "Search 'engine'", an Image Repository, and
-perhaps even an advertisement infrastructure
-in the future.
+Just opening the files on a browser won't work, you need to
+run an HTTP server first.
 
-Projects being listed here don't mean they're
-anywhere near completion or in active development,
-they're only here to get the general idea of
-what we want to create out there.
+Assuming you have Python installed, you acn simply run:
 
-You are free to contribute by creating forks
-and submitting pull requests.
+```bash
+python3 -m http.server
+```
 
-### Yippe! Search
+or 
 
-The Yippe! Search Engine.
+```ps1
+python -m http.server
+```
 
-In reality, it will probably just fetch from
-a static list of websites and pages in the
-repo as CRSSi will never reach a scale
-where more than this is needed.
+if the Python on your `%PATH%` runs all `python3` commands.
 
-- URL: [`yippe.crssi.cc`](https://yippe.crssi.cc)
-- Branch: `search`
-- Simple Branch: `simple/search`
+## License
 
-### Yippe! Images
+Yippe! is ARR, but that doesn't mean you can't do anything with it.
 
-The Yippe! Image Repository.
+<p>
+    © 2025 Yippe! (CRSS) - All Rights Reserved
+</p>
 
-It will just include many useful images for
-use in CRSSi or external pages, not be a global
-index of images.
-
-- URL: [`images.yippe.crssi.cc`](https://images.yippe.crssi.cc)
-- Branch: `search/images`
-- Simple Branch: `simple/images`
+<p>
+    You are allowed to fork, alter, and publish your own version of Yippe!
+    <i>stuff</i>, as long as you remove all mentions to Yippe!'s Branding.
+</p>
