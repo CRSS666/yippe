@@ -5,6 +5,11 @@
         "desc": "The information page about the CRSSi. The site contains useful info about how we do stuff."
     },
     {
+	"title": "The CRSS Wiki",
+	"url": "https://wiki.crss.cc",
+	"desc": "The official CRSS Wiki, containing unbiased and (hopefully) complete information about everything in the server."
+    },
+    {
         "title": "Yippe! Search (Simple)",
         "url": "https://s.yippe.crssi.cc",
         "desc": "The 'Simple' version of the Yippe! Search website. It uses simple HTML, CSS and js."
